@@ -556,7 +556,8 @@ template {
   margin-bottom: 60px; }
 
 .checklist-block__card-title {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-transform: uppercase; }
 
 .checklist-block__card ul li:not(:last-child) {
   margin-bottom: 10px; }
