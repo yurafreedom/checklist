@@ -1,0 +1,59 @@
+.page-header {
+	&__row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 100px;
+		margin-bottom: 50px;
+		padding-bottom: 38px;
+		border-bottom: 1px solid #000;
+	}
+	&__title {
+		display: block;
+		max-width: 420px;
+	}
+	&__logo {
+		width: 120px;
+	}
+}
+
+.page-list {
+	list-style-type: square;
+	margin: 0;
+	padding-left: 18px;
+}
+
+
+@include for-size(mobile) {
+	.page-header {
+		&__row {
+			display: block;
+			margin-top: 60px;
+		}
+		&__title {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+
+@include for-size(tablet) {
+	.page-header {
+		
+	}
+}
+
+
+@include for-size(desktop) {
+	.page-header {
+		
+	}
+}
+
+
+
+
+
+
+
+

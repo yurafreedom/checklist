@@ -1,0 +1,44 @@
+.checklist-block {
+	&__wrapper {
+		display: flex;
+		flex-direction: row;
+		width: 640px;
+		margin: 0 auto;
+		padding-bottom: 130px;
+	}
+	&__list {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__card {
+		width: 280px;
+	}
+	&__card:not(:last-child) {
+		margin-bottom: 60px;
+	}
+	&__card-title {
+		margin-bottom: 20px;
+	}
+	&__card ul li:not(:last-child) {
+		margin-bottom: 10px;
+	}
+	&__card ul li {
+		font-size: 10px;
+	}
+}
+
+@include for-size(mobile) {
+	.checklist-block {
+		&__wrapper {
+			display: block;
+			width: 100%;
+			padding-bottom: 60px;
+		}
+		&__left-part {
+			margin-bottom: 60px;
+		}
+	}
+}
