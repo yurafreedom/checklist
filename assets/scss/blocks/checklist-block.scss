@@ -26,8 +26,11 @@
 	&__card ul li:not(:last-child) {
 		margin-bottom: 10px;
 	}
-	&__card ul li {
+	&__card ul li, &__card p {
 		font-size: 14px;
+	}
+	&__card .italic {
+		font-style: italic;
 	}
 }
 

@@ -562,8 +562,11 @@ template {
 .checklist-block__card ul li:not(:last-child) {
   margin-bottom: 10px; }
 
-.checklist-block__card ul li {
+.checklist-block__card ul li, .checklist-block__card p {
   font-size: 14px; }
+
+.checklist-block__card .italic {
+  font-style: italic; }
 
 @media (max-width: 767px) {
   .checklist-block__wrapper {
